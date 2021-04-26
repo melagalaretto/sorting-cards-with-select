@@ -1,1 +1,79 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+}
+#box {
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+#btn1 {
+  border-radius: 5px;
+  width: 70px;
+}
+
+#btn2 {
+  border-radius: 5px;
+  width: 70px;
+}
+
+/* CONTENEDOR 1 */
+.contenedor1 {
+  height: 250px;
+  width: 200px;
+  background-color: white;
+  border-radius: 15px;
+  margin-top: 30px;
+  margin-left: 30px;
+  box-shadow: 5px 5px 5px 3px black;
+}
+.simb1 {
+  font-size: 40px;
+  margin-left: 15px;
+}
+
+.numeroA {
+  font-size: 65px;
+  text-align: center;
+}
+
+.simb2 {
+  font-size: 40px;
+  transform: rotate(180deg);
+  margin-right: 15px;
+}
+
+/* CONTENEDOR 2 */
+
+.contenedor2 {
+  height: 250px;
+  width: 200px;
+  background-color: white;
+  border-radius: 15px;
+  margin-top: -265px;
+  margin-left: 300px;
+  box-shadow: 5px 5px 5px 3px black;
+}
+.simb3 {
+  font-size: 40px;
+  margin-left: 15px;
+}
+
+.numeroB {
+  font-size: 65px;
+  text-align: center;
+}
+
+.simb4 {
+  font-size: 40px;
+  transform: rotate(180deg);
+  margin-right: 15px;
+}
+
+#ordenC {
+  text-align: center;
+  margin-top: 40px;
+  background-color: white;
+  text-shadow: 1px 1px red;
+}
